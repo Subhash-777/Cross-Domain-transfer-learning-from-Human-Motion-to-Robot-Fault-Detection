@@ -42,15 +42,9 @@ README.md: Project documentation.
 
 🛠️ Setup Instructions
 1. Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/Subhash-777/Cross-Domain-transfer-learning-from-Human-Motion-to-Robot-Fault-Detection.git
 cd Cross-Domain-transfer-learning-from-Human-Motion-to-Robot-Fault-Detection
 2. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Prepare the Data
 Ensure your human motion data and robot sensor logs are formatted appropriately:
@@ -63,24 +57,12 @@ Follow the patterns in the example notebook for preprocessing and feature alignm
 4. Train the Model
 Use the Jupyter notebook or command‑line scripts to train the LSTM model on human data:
 
-bash
-Copy
-Edit
-python train.py
 5. Transfer & Fine‑Tune for Fault Detection
 Map robot data into the human-motion feature space, freeze early layers, and fine‑tune on robot dataset:
 
-bash
-Copy
-Edit
-python fine_tune.py
 6. Evaluate & Analyze
 Evaluate model performance and analyze feature importance:
 
-bash
-Copy
-Edit
-python evaluate.py
 🔍 How It Works
 Preprocessing: Clean and format sequential data from both domains.
 
